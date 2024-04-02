@@ -1,5 +1,5 @@
 :root {
-  --color-background: #fff;
+  --color-background: rgba(255,238,237,0.459);
   --color-background-secondary: #f6f8fa;
   --color-background-rgb: 255, 255, 255;
   --color-text: #33333d;
@@ -7,7 +7,7 @@
   --color-text-third: #999;
   --color-border: #eee;
   --background-image: url("/images/theme/welcome-image.jpg");
-  --loading-image: url("/images/theme/loading.gif");
+  --loading-image: url("");
   --lazyload-image: url("/images/theme/loading.gif");
 }
 @media (prefers-color-scheme: dark) {
@@ -15,28 +15,28 @@
     --color-mode: 'dark';
   }
   :root:not([color-mode]) {
-    --color-background: #1e2128;
+    --color-background: fff;
     --color-background-secondary: #1a1d22;
     --color-background-rgb: 30, 33, 40;
     --color-text: #ddd;
     --color-text-secondary: #9899ab;
     --color-text-third: #7d8594;
-    --color-border: #2b3038;
+    --color-border: #ffe4e3;
     --background-image: url("/images/theme/welcome-image.jpg");
-    --loading-image: url("/images/theme/loading.gif");
+    --loading-image: url("");
     --lazyload-image: url("/images/theme/loading.gif");
   }
 }
 [color-mode='dark'] {
-  --color-background: #1e2128;
+  --color-background: fff;
   --color-background-secondary: #1a1d22;
   --color-background-rgb: 30, 33, 40;
   --color-text: #ddd;
   --color-text-secondary: #9899ab;
   --color-text-third: #7d8594;
-  --color-border: #2b3038;
+  --color-border: #ffe4e3;
   --background-image: url("/images/theme/welcome-image.jpg");
-  --loading-image: url("/images/theme/loading.gif");
+  --loading-image: url("");
   --lazyload-image: url("/images/theme/loading.gif");
 }
 [color-mode='dark'] .tags a {
@@ -1192,7 +1192,7 @@ body input {
   font-size: 3.5em;
   font-family: 'Quicksand', 'Vollkorn', serif;
   font-weight: 300;
-  color: #fff;
+  color: #ff6b6b;
   margin: 0;
 }
 .preview .preview-motto-wrapper .preview-cursor {
